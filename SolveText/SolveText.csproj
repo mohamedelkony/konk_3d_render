@@ -1,0 +1,420 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{EEE22281-D411-4957-9494-A828F117B772}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>EquationGrapher3D</RootNamespace>
+    <AssemblyName>EquationGrapher3D</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <TargetFrameworkProfile />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>2.01.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>2</WarningLevel>
+    <RunCodeAnalysis>false</RunCodeAnalysis>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>SolveText.Program</StartupObject>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>asdwe.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup />
+  <PropertyGroup>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Runtime.Remoting" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Workflow.Runtime" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AnalzingForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AnalzingForm.Designer.cs">
+      <DependentUpon>AnalzingForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Calculator.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Calculator.Designer.cs">
+      <DependentUpon>Calculator.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Class1.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Class2.cs" />
+    <Compile Include="ColorEquation.cs" />
+    <Compile Include="EquationFile.cs" />
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AboutForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AboutForm.Designer.cs">
+      <DependentUpon>AboutForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2.Designer.cs">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HelpForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HelpForm.Designer.cs">
+      <DependentUpon>HelpForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="KColorDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KColorDialog.Designer.cs">
+      <DependentUpon>KColorDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="kokmap.cs" />
+    <Compile Include="neweq.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="neweq.Designer.cs">
+      <DependentUpon>neweq.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Notfic.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Notfic.Designer.cs">
+      <DependentUpon>Notfic.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PointF3D.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Render.cs" />
+    <Compile Include="Rotate3D.cs" />
+    <Compile Include="TasksForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TasksForm.Designer.cs">
+      <DependentUpon>TasksForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="textcontext.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="waiting_form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="waiting_form.Designer.cs">
+      <DependentUpon>waiting_form.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AboutForm.resx">
+      <DependentUpon>AboutForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AnalzingForm.resx">
+      <DependentUpon>AnalzingForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Calculator.resx">
+      <DependentUpon>Calculator.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form2.resx">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HelpForm.resx">
+      <DependentUpon>HelpForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KColorDialog.resx">
+      <DependentUpon>KColorDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="neweq.resx">
+      <DependentUpon>neweq.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Notfic.resx">
+      <DependentUpon>Notfic.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TasksForm.resx">
+      <DependentUpon>TasksForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="waiting_form.resx">
+      <DependentUpon>waiting_form.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="app.manifest" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="asdwe.ico" />
+    <Content Include="equationgrapherfile2.ico" />
+    <EmbeddedResource Include="Resources\f16.mdls" />
+    <None Include="Resources\trangle.png" />
+    <None Include="Resources\marcedes.png" />
+    <None Include="Resources\five_star.png" />
+    <None Include="Resources\engine.png" />
+    <None Include="Resources\scaled_star.png" />
+    <None Include="Resources\looped_sphere.png" />
+    <None Include="Resources\dash_prisim.png" />
+    <None Include="Resources\circular_heart.png" />
+    <None Include="Resources\cq19.png" />
+    <EmbeddedResource Include="Resources\electorns_super_ball_levels.mdls" />
+    <None Include="Resources\pressed balls.png" />
+    <None Include="Resources\third_pump.png" />
+    <None Include="Resources\TriangleTube.png" />
+    <None Include="Resources\fifth_flower.png" />
+    <None Include="Resources\eight_flower.png" />
+    <None Include="Resources\cq21.png" />
+    <None Include="Resources\cq20.png" />
+    <None Include="Resources\cq18.png" />
+    <None Include="Resources\cq17.png" />
+    <None Include="Resources\cq16.png" />
+    <None Include="Resources\cq15.png" />
+    <None Include="Resources\cq14.png" />
+    <None Include="Resources\cq13.png" />
+    <None Include="Resources\cq12.png" />
+    <None Include="Resources\cq11.png" />
+    <None Include="Resources\cq10.png" />
+    <None Include="Resources\cq9.png" />
+    <None Include="Resources\cq8.png" />
+    <None Include="Resources\cq7.png" />
+    <None Include="Resources\cq6.png" />
+    <None Include="Resources\cq5.png" />
+    <None Include="Resources\cq4.png" />
+    <None Include="Resources\cq3.png" />
+    <None Include="Resources\cq2.png" />
+    <None Include="Resources\cq1.png" />
+    <None Include="Resources\asdwe.jpg" />
+    <None Include="Resources\book.png" />
+    <None Include="Resources\w25.jpg" />
+    <None Include="Resources\w24.jpg" />
+    <None Include="Resources\w23.jpg" />
+    <None Include="Resources\w22.jpg" />
+    <None Include="Resources\w21.jpg" />
+    <None Include="Resources\w20.jpg" />
+    <None Include="Resources\w19.jpg" />
+    <None Include="Resources\w18.jpg" />
+    <None Include="Resources\w17.jpg" />
+    <None Include="Resources\w16.jpg" />
+    <None Include="Resources\w15.jpg" />
+    <None Include="Resources\w14.jpg" />
+    <None Include="Resources\w13.jpg" />
+    <None Include="Resources\w12.jpg" />
+    <None Include="Resources\w11.jpg" />
+    <None Include="Resources\w10.jpg" />
+    <None Include="Resources\w9.jpg" />
+    <None Include="Resources\w8.jpg" />
+    <None Include="Resources\w7.jpg" />
+    <None Include="Resources\w6.jpg" />
+    <None Include="Resources\w4.jpg" />
+    <None Include="Resources\w3.jpg" />
+    <None Include="Resources\w2.jpg" />
+    <None Include="Resources\w1.jpg" />
+    <None Include="Resources\loop.png" />
+    <None Include="Resources\chair.png" />
+    <EmbeddedResource Include="Resources\chair.mdls" />
+    <None Include="Resources\pokeman.png" />
+    <None Include="Resources\path.png" />
+    <EmbeddedResource Include="Resources\book.mdls" />
+    <None Include="Resources\earth.png" />
+    <EmbeddedResource Include="Resources\earthmodel.mdls" />
+    <EmbeddedResource Include="Resources\path.mdls" />
+    <EmbeddedResource Include="Resources\pokeman.mdls" />
+    <None Include="Resources\star_7.png" />
+    <None Include="Resources\Hat.png" />
+    <None Include="Resources\fourthpolgen.png" />
+    <None Include="Resources\interiotionimg.png" />
+    <None Include="Resources\wingedbullet.png" />
+    <None Include="Resources\vlc.png" />
+    <None Include="Resources\pear.png" />
+    <None Include="Resources\Kline Bottleomg.png" />
+    <None Include="Resources\filledcontainer.png" />
+    <None Include="Resources\epicycloid.png" />
+    <None Include="Resources\dram.png" />
+    <None Include="Resources\ClosedCylinderimg.png" />
+    <None Include="Resources\cakeplate.png" />
+    <None Include="Resources\bullet.png" />
+    <None Include="Resources\3ploes.png" />
+    <None Include="Resources\sphere_dashed.jpg" />
+    <None Include="Resources\Cone.png" />
+    <None Include="Resources\2dheartimgimg.png" />
+    <None Include="Resources\shape_8.jpg" />
+    <None Include="Resources\Pesudo_h.jpg" />
+    <None Include="Resources\pesudo_cone.jpg" />
+    <None Include="Resources\kidney.png" />
+    <None Include="Resources\folium.jpg" />
+    <None Include="Resources\Diamond.jpg" />
+    <None Include="Resources\cosinus.jpg" />
+    <None Include="Resources\2dstar.jpg" />
+    <None Include="Resources\plan.jpg" />
+    <None Include="Resources\limput_trous.jpg" />
+    <None Include="Resources\toupi.jpg" />
+    <None Include="Resources\sphere.jpg" />
+    <None Include="Resources\snake.jpg" />
+    <None Include="Resources\shell.jpg" />
+    <None Include="Resources\prisim.jpg" />
+    <None Include="Resources\humance1.jpg" />
+    <None Include="Resources\hexaedro.jpg" />
+    <None Include="Resources\helx.jpg" />
+    <None Include="Resources\heaxgon.jpg" />
+    <None Include="Resources\eightsurface.jpg" />
+    <None Include="Resources\DNA.jpg" />
+    <None Include="Resources\catrnod.jpg" />
+    <None Include="Resources\bonbon.jpg" />
+    <None Include="Resources\star.jpg" />
+    <None Include="Resources\drop_vimg.png" />
+    <None Include="Resources\klein.png" />
+    <None Include="Resources\horn_vimg.png" />
+    <None Include="Resources\herat_vimg.png" />
+    <None Include="Resources\cup_vimg.png" />
+    <None Include="Resources\Cubeimg.png" />
+    <None Include="Resources\trous1.jpg" />
+    <None Include="Resources\SpringTorusimg.png" />
+    <None Include="Resources\SpiralSnakeimg.png" />
+    <None Include="Resources\Twisted Coilimg.png" />
+    <None Include="Resources\Trefoilimg.png" />
+    <None Include="Resources\TopTrousimg.png" />
+    <None Include="Resources\tiwstedhormimg.png" />
+    <None Include="Resources\Stilettoimg.png" />
+    <None Include="Resources\Kuen%27s Surfaceimg.png" />
+    <None Include="Resources\KleinCycloid_unsafedomanimg.png" />
+    <None Include="Resources\Elliptical Torusimg.png" />
+    <None Include="Resources\Circle Loops IIimg.png" />
+    <None Include="Resources\BentHornsimg.png" />
+    <None Include="Resources\barrelimg.png" />
+    <None Include="Resources\face_PNG5660.png" />
+    <None Include="Resources\m%2801-32%29_gr.jpg" />
+    <None Include="Resources\images %286%29.jpg" />
+    <None Include="Resources\egypt, flag icon.png" />
+    <None Include="Resources\HSLL128.jpg" />
+    <None Include="Resources\stars, image, backgr.jpg" />
+    <None Include="Resources\images_55.jpg" />
+    <None Include="Resources\images_37.jpg" />
+    <None Include="Resources\images_25.jpg" />
+    <None Include="Resources\images_12.jpg" />
+    <None Include="Resources\images_11.jpg" />
+    <None Include="Resources\obsts.jpg" />
+    <None Include="Resources\curve.jpg" />
+    <None Include="Resources\Waver.jpg" />
+    <None Include="Resources\vlocano.jpg" />
+    <None Include="Resources\v.jpg" />
+    <None Include="Resources\Tophat.jpg" />
+    <None Include="Resources\Stairs.jpg" />
+    <None Include="Resources\sewingsnap.jpg" />
+    <None Include="Resources\rush.jpg" />
+    <None Include="Resources\roof.jpg" />
+    <None Include="Resources\pyramid.jpg" />
+    <None Include="Resources\pairofmousnanesandvallyes.jpg" />
+    <None Include="Resources\o.jpg" />
+    <None Include="Resources\nebula.jpg" />
+    <None Include="Resources\lowrollinglpans.jpg" />
+    <None Include="Resources\intersectingfenes.jpg" />
+    <None Include="Resources\hillinvally.jpg" />
+    <None Include="Resources\cross.jpg" />
+    <None Include="Resources\Cone1.jpg" />
+    <None Include="Resources\blomissngflower.jpg" />
+    <None Include="Resources\calculator, math icon.png" />
+    <None Include="Resources\highrelotinedworldmap.jpg" />
+    <EmbeddedResource Include="Resources\equationgrapherfile2.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Resources\Param\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

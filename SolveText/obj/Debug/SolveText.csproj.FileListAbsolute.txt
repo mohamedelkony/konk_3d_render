@@ -1,0 +1,38 @@
+E:\V S\Working enterprise\SolveText\SolveText\obj\Debug\SolveText.AboutForm.resources
+E:\V S\Working enterprise\SolveText\SolveText\obj\Debug\SolveText.CalculatorForm.resources
+E:\V S\Working enterprise\SolveText\SolveText\obj\Debug\SolveText.KColorDialog.resources
+E:\V S\Working enterprise\SolveText\SolveText\obj\Debug\SolveText.Notfic.resources
+E:\V S\Working enterprise\SolveText\SolveText\obj\Debug\SolveText.csproj.GenerateResource.Cache
+E:\V S\Working enterprise\SolveText\SolveText\obj\Debug\SolveText.EquationForm.resources
+E:\V S\Working enterprise\SolveText\SolveText\obj\Debug\SolveText.Form_TextureModle.resources
+E:\V S\Working enterprise\SolveText\SolveText\obj\Debug\SolveText.MainForm.resources
+E:\V S\Working enterprise\SolveText\SolveText\obj\Debug\EquationGrapher3D.Properties.Resources.resources
+E:\V S\Working enterprise\SolveText\SolveText\obj\Debug\SolveText.TasksForm.resources
+E:\V S\Working enterprise\SolveText\SolveText\obj\Debug\SolveText.HelpForm.resources
+E:\V S\Working enterprise\SolveText\SolveText\obj\Debug\SolveText.AnalzingForm.resources
+E:\V S\Working enterprise\SolveText\SolveText\obj\Debug\SolveText.csprojResolveAssemblyReference.cache
+E:\V S\Working enterprise\SolveText\SolveText\bin\Debug\EquationGrapher3D.exe.config
+E:\V S\Working enterprise\SolveText\SolveText\bin\Debug\EquationGrapher3D.exe
+E:\V S\Working enterprise\SolveText\SolveText\bin\Debug\EquationGrapher3D.pdb
+E:\V S\Working enterprise\SolveText\SolveText\obj\Debug\EquationGrapher3D.exe
+E:\V S\Working enterprise\SolveText\SolveText\obj\Debug\EquationGrapher3D.pdb
+E:\V S\Working enterprise\SolveText\SolveText\obj\Debug\SolveText.waiting_form.resources
+E:\V S\copies\SolveText\New folder (6) - Copy 2\SolveText\SolveText\bin\Debug\EquationGrapher3D.exe.config
+E:\V S\copies\SolveText\New folder (6) - Copy 2\SolveText\SolveText\obj\Debug\EquationGrapher3D.exe
+E:\V S\copies\SolveText\New folder (6) - Copy 2\SolveText\SolveText\obj\Debug\EquationGrapher3D.pdb
+E:\V S\copies\SolveText\New folder (6) - Copy 2\SolveText\SolveText\bin\Debug\EquationGrapher3D.exe
+E:\V S\copies\SolveText\New folder (6) - Copy 2\SolveText\SolveText\bin\Debug\EquationGrapher3D.pdb
+E:\V S\copies\SolveText\New folder (6) - Copy 2\SolveText\SolveText\obj\Debug\SolveText.csprojResolveAssemblyReference.cache
+E:\V S\copies\SolveText\New folder (6) - Copy 2\SolveText\SolveText\obj\Debug\SolveText.AboutForm.resources
+E:\V S\copies\SolveText\New folder (6) - Copy 2\SolveText\SolveText\obj\Debug\SolveText.AnalzingForm.resources
+E:\V S\copies\SolveText\New folder (6) - Copy 2\SolveText\SolveText\obj\Debug\SolveText.CalculatorForm.resources
+E:\V S\copies\SolveText\New folder (6) - Copy 2\SolveText\SolveText\obj\Debug\SolveText.MainForm.resources
+E:\V S\copies\SolveText\New folder (6) - Copy 2\SolveText\SolveText\obj\Debug\SolveText.Form_TextureModle.resources
+E:\V S\copies\SolveText\New folder (6) - Copy 2\SolveText\SolveText\obj\Debug\SolveText.HelpForm.resources
+E:\V S\copies\SolveText\New folder (6) - Copy 2\SolveText\SolveText\obj\Debug\SolveText.KColorDialog.resources
+E:\V S\copies\SolveText\New folder (6) - Copy 2\SolveText\SolveText\obj\Debug\SolveText.EquationForm.resources
+E:\V S\copies\SolveText\New folder (6) - Copy 2\SolveText\SolveText\obj\Debug\SolveText.Notfic.resources
+E:\V S\copies\SolveText\New folder (6) - Copy 2\SolveText\SolveText\obj\Debug\EquationGrapher3D.Properties.Resources.resources
+E:\V S\copies\SolveText\New folder (6) - Copy 2\SolveText\SolveText\obj\Debug\SolveText.TasksForm.resources
+E:\V S\copies\SolveText\New folder (6) - Copy 2\SolveText\SolveText\obj\Debug\SolveText.waiting_form.resources
+E:\V S\copies\SolveText\New folder (6) - Copy 2\SolveText\SolveText\obj\Debug\SolveText.csproj.GenerateResource.Cache
